@@ -3061,3 +3061,528 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.03.12-18.20.08:874][922]LogShaderCompilers: Display: Started 9 'Local' shader compile jobs with 'Normal' priority
 [2022.03.12-18.20.20:132][247]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 23
 [2022.03.12-18.20.20:132][247]LogShaderCompilers: Display: Started 6 'Local' shader compile jobs with 'Normal' priority
+[2022.03.12-18.21.04:802][551]LogHttp: Warning: 0000025BBCD87200: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6DED183D-4D33-102F-E218-51A5BF08AFE8%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=d9fa85ae41146a0a9ad12b97cf4de64a%7C95e33a0ae797462391beb0ac71ddb695%7C0809734e-f07b-4665-8bdd-1676e83b8884&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.03.12-18.21.04:802][551]LogHttp: Warning: 0000025BBCD87200: request failed, libcurl error: 51 (SSL peer certificate or SSH remote key was not OK)
+[2022.03.12-18.21.04:802][551]LogHttp: Warning: 0000025BBCD87200: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2022.03.12-18.21.04:802][551]LogHttp: Warning: 0000025BBCD87200: libcurl info message cache 1 (  Trying 34.202.37.224...)
+[2022.03.12-18.21.04:802][551]LogHttp: Warning: 0000025BBCD87200: libcurl info message cache 2 (TCP_NODELAY set)
+[2022.03.12-18.21.04:802][551]LogHttp: Warning: 0000025BBCD87200: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (34.202.37.224) port 443 (#25))
+[2022.03.12-18.21.04:802][551]LogHttp: Warning: 0000025BBCD87200: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2022.03.12-18.21.04:802][551]LogHttp: Warning: 0000025BBCD87200: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2022.03.12-18.21.04:802][551]LogHttp: Warning: 0000025BBCD87200: libcurl info message cache 6 (SSL re-using session ID)
+[2022.03.12-18.21.04:802][551]LogHttp: Warning: 0000025BBCD87200: libcurl info message cache 7 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2022.03.12-18.21.04:803][551]LogHttp: Warning: 0000025BBCD87200: libcurl info message cache 8 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2022.03.12-18.21.04:803][551]LogHttp: Warning: 0000025BBCD87200: libcurl info message cache 9 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2022.03.12-18.21.04:803][551]LogHttp: Warning: 0000025BBCD87200: libcurl info message cache 10 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2022.03.12-18.21.04:803][551]LogHttp: Warning: 0000025BBCD87200: libcurl info message cache 11 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2022.03.12-18.21.04:803][551]LogHttp: Warning: 0000025BBCD87200: libcurl info message cache 12 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2022.03.12-18.21.04:803][551]LogHttp: Warning: 0000025BBCD87200: libcurl info message cache 13 (TLSv1.2 (OUT), TLS change cipher, Client hello (1):)
+[2022.03.12-18.21.04:803][551]LogHttp: Warning: 0000025BBCD87200: libcurl info message cache 14 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2022.03.12-18.21.04:803][551]LogHttp: Warning: 0000025BBCD87200: libcurl info message cache 15 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2022.03.12-18.21.04:803][551]LogHttp: Warning: 0000025BBCD87200: libcurl info message cache 16 (SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384)
+[2022.03.12-18.21.04:803][551]LogHttp: Warning: 0000025BBCD87200: libcurl info message cache 17 (ALPN, server accepted to use http/1.1)
+[2022.03.12-18.21.04:803][551]LogHttp: Warning: 0000025BBCD87200: libcurl info message cache 18 (old SSL session ID is stale, removing)
+[2022.03.12-18.21.04:803][551]LogHttp: Warning: 0000025BBCD87200: libcurl info message cache 19 (Server certificate:)
+[2022.03.12-18.21.04:803][551]LogHttp: Warning: 0000025BBCD87200: libcurl info message cache 20 ( subject: C=CA; ST=Nova Scotia; L=Halifax Regional Municipality; O=SolutionInc Limited; CN=*.solutionip.com)
+[2022.03.12-18.21.04:803][551]LogHttp: Warning: 0000025BBCD87200: libcurl info message cache 21 ( start date: Jul  6 00:00:00 2020 GMT)
+[2022.03.12-18.21.04:803][551]LogHttp: Warning: 0000025BBCD87200: libcurl info message cache 22 ( expire date: Oct  9 00:00:00 2022 GMT)
+[2022.03.12-18.21.04:803][551]LogHttp: Warning: 0000025BBCD87200: libcurl info message cache 23 ( subjectAltName does not match datarouter.ol.epicgames.com)
+[2022.03.12-18.21.04:803][551]LogHttp: Warning: 0000025BBCD87200: libcurl info message cache 24 (SSL: no alternative certificate subject name matches target host name 'datarouter.ol.epicgames.com')
+[2022.03.12-18.21.04:803][551]LogHttp: Warning: 0000025BBCD87200: libcurl info message cache 25 (Closing connection 25)
+[2022.03.12-18.21.04:803][551]LogHttp: Warning: 0000025BBCD87200: libcurl info message cache 26 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2022.03.12-18.21.04:829][552]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6DED183D-4D33-102F-E218-51A5BF08AFE8%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=d9fa85ae41146a0a9ad12b97cf4de64a%7C95e33a0ae797462391beb0ac71ddb695%7C0809734e-f07b-4665-8bdd-1676e83b8884&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.03.12-18.21.08:277][695]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 17
+[2022.03.12-18.21.08:278][695]LogShaderCompilers: Display: Started 5 'Local' shader compile jobs with 'Normal' priority
+[2022.03.12-18.21.08:842][718]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 12
+[2022.03.12-18.21.08:842][718]LogShaderCompilers: Display: Started 4 'Local' shader compile jobs with 'Normal' priority
+[2022.03.12-18.21.12:787][880]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 8
+[2022.03.12-18.21.12:787][880]LogShaderCompilers: Display: Started 3 'Local' shader compile jobs with 'Normal' priority
+[2022.03.12-18.21.13:797][918]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 5
+[2022.03.12-18.21.13:797][918]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Normal' priority
+[2022.03.12-18.21.26:774][443]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 3
+[2022.03.12-18.21.26:774][443]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.03.12-18.21.33:233][701]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
+[2022.03.12-18.21.33:233][701]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.03.12-18.21.33:797][724]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1
+[2022.03.12-18.21.33:797][724]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.03.12-18.21.34:240][744]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 4443
+[2022.03.12-18.21.34:240][744]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.03.12-18.21.37:939][891]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 4433
+[2022.03.12-18.21.37:939][891]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.03.12-18.21.37:939][891]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 4423
+[2022.03.12-18.21.37:939][891]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.03.12-18.21.45:737][208]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 4413
+[2022.03.12-18.21.45:737][208]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.03.12-18.21.45:737][208]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.03.12-18.21.45:737][208]LogShaderCompilers: Display: Total job queries 6913, among them cache hits 4 (0.06%)
+[2022.03.12-18.21.45:737][208]LogShaderCompilers: Display: Tracking 2466 distinct input hashes that result in 912 distinct outputs (36.98%)
+[2022.03.12-18.21.45:737][208]LogShaderCompilers: Display: RAM used: 9.37 MB (0.01 GB) of 409.60 MB (0.40 GB) budget. Usage: 2.29%
+[2022.03.12-18.21.45:737][208]LogShaderCompilers: Display: ================================================
+[2022.03.12-18.21.53:236][519]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 4403
+[2022.03.12-18.21.53:236][519]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.03.12-18.22.03:303][929]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 4393
+[2022.03.12-18.22.03:303][929]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.03.12-18.22.04:860][988]LogHttp: Warning: 0000025BBCB02400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6DED183D-4D33-102F-E218-51A5BF08AFE8%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=d9fa85ae41146a0a9ad12b97cf4de64a%7C95e33a0ae797462391beb0ac71ddb695%7C0809734e-f07b-4665-8bdd-1676e83b8884&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.03.12-18.22.04:860][988]LogHttp: Warning: 0000025BBCB02400: request failed, libcurl error: 51 (SSL peer certificate or SSH remote key was not OK)
+[2022.03.12-18.22.04:860][988]LogHttp: Warning: 0000025BBCB02400: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2022.03.12-18.22.04:860][988]LogHttp: Warning: 0000025BBCB02400: libcurl info message cache 1 (  Trying 3.234.174.192...)
+[2022.03.12-18.22.04:860][988]LogHttp: Warning: 0000025BBCB02400: libcurl info message cache 2 (TCP_NODELAY set)
+[2022.03.12-18.22.04:860][988]LogHttp: Warning: 0000025BBCB02400: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (3.234.174.192) port 443 (#26))
+[2022.03.12-18.22.04:860][988]LogHttp: Warning: 0000025BBCB02400: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2022.03.12-18.22.04:860][988]LogHttp: Warning: 0000025BBCB02400: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2022.03.12-18.22.04:860][988]LogHttp: Warning: 0000025BBCB02400: libcurl info message cache 6 (SSL re-using session ID)
+[2022.03.12-18.22.04:860][988]LogHttp: Warning: 0000025BBCB02400: libcurl info message cache 7 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2022.03.12-18.22.04:860][988]LogHttp: Warning: 0000025BBCB02400: libcurl info message cache 8 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2022.03.12-18.22.04:860][988]LogHttp: Warning: 0000025BBCB02400: libcurl info message cache 9 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2022.03.12-18.22.04:860][988]LogHttp: Warning: 0000025BBCB02400: libcurl info message cache 10 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2022.03.12-18.22.04:860][988]LogHttp: Warning: 0000025BBCB02400: libcurl info message cache 11 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2022.03.12-18.22.04:860][988]LogHttp: Warning: 0000025BBCB02400: libcurl info message cache 12 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2022.03.12-18.22.04:860][988]LogHttp: Warning: 0000025BBCB02400: libcurl info message cache 13 (TLSv1.2 (OUT), TLS change cipher, Client hello (1):)
+[2022.03.12-18.22.04:860][988]LogHttp: Warning: 0000025BBCB02400: libcurl info message cache 14 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2022.03.12-18.22.04:860][988]LogHttp: Warning: 0000025BBCB02400: libcurl info message cache 15 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2022.03.12-18.22.04:860][988]LogHttp: Warning: 0000025BBCB02400: libcurl info message cache 16 (SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384)
+[2022.03.12-18.22.04:860][988]LogHttp: Warning: 0000025BBCB02400: libcurl info message cache 17 (ALPN, server accepted to use http/1.1)
+[2022.03.12-18.22.04:860][988]LogHttp: Warning: 0000025BBCB02400: libcurl info message cache 18 (old SSL session ID is stale, removing)
+[2022.03.12-18.22.04:860][988]LogHttp: Warning: 0000025BBCB02400: libcurl info message cache 19 (Server certificate:)
+[2022.03.12-18.22.04:861][988]LogHttp: Warning: 0000025BBCB02400: libcurl info message cache 20 ( subject: C=CA; ST=Nova Scotia; L=Halifax Regional Municipality; O=SolutionInc Limited; CN=*.solutionip.com)
+[2022.03.12-18.22.04:861][988]LogHttp: Warning: 0000025BBCB02400: libcurl info message cache 21 ( start date: Jul  6 00:00:00 2020 GMT)
+[2022.03.12-18.22.04:862][988]LogHttp: Warning: 0000025BBCB02400: libcurl info message cache 22 ( expire date: Oct  9 00:00:00 2022 GMT)
+[2022.03.12-18.22.04:862][988]LogHttp: Warning: 0000025BBCB02400: libcurl info message cache 23 ( subjectAltName does not match datarouter.ol.epicgames.com)
+[2022.03.12-18.22.04:862][988]LogHttp: Warning: 0000025BBCB02400: libcurl info message cache 24 (SSL: no alternative certificate subject name matches target host name 'datarouter.ol.epicgames.com')
+[2022.03.12-18.22.04:862][988]LogHttp: Warning: 0000025BBCB02400: libcurl info message cache 25 (Closing connection 26)
+[2022.03.12-18.22.04:862][988]LogHttp: Warning: 0000025BBCB02400: libcurl info message cache 26 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2022.03.12-18.22.04:862][988]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6DED183D-4D33-102F-E218-51A5BF08AFE8%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=d9fa85ae41146a0a9ad12b97cf4de64a%7C95e33a0ae797462391beb0ac71ddb695%7C0809734e-f07b-4665-8bdd-1676e83b8884&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.03.12-18.22.20:969][646]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 4383
+[2022.03.12-18.22.20:969][646]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.03.12-18.22.21:591][666]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 4373
+[2022.03.12-18.22.21:591][666]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.03.12-18.22.34:716][200]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 4363
+[2022.03.12-18.22.34:716][200]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.03.12-18.22.43:573][547]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 4353
+[2022.03.12-18.22.43:573][547]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.03.12-18.23.02:630][333]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 4343
+[2022.03.12-18.23.02:630][333]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.03.12-18.23.04:834][415]LogHttp: Warning: 0000025BBED80100: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6DED183D-4D33-102F-E218-51A5BF08AFE8%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=d9fa85ae41146a0a9ad12b97cf4de64a%7C95e33a0ae797462391beb0ac71ddb695%7C0809734e-f07b-4665-8bdd-1676e83b8884&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.03.12-18.23.04:834][415]LogHttp: Warning: 0000025BBED80100: request failed, libcurl error: 51 (SSL peer certificate or SSH remote key was not OK)
+[2022.03.12-18.23.04:834][415]LogHttp: Warning: 0000025BBED80100: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2022.03.12-18.23.04:834][415]LogHttp: Warning: 0000025BBED80100: libcurl info message cache 1 (  Trying 34.202.128.163...)
+[2022.03.12-18.23.04:835][415]LogHttp: Warning: 0000025BBED80100: libcurl info message cache 2 (TCP_NODELAY set)
+[2022.03.12-18.23.04:835][415]LogHttp: Warning: 0000025BBED80100: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (34.202.128.163) port 443 (#27))
+[2022.03.12-18.23.04:835][415]LogHttp: Warning: 0000025BBED80100: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2022.03.12-18.23.04:835][415]LogHttp: Warning: 0000025BBED80100: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2022.03.12-18.23.04:835][415]LogHttp: Warning: 0000025BBED80100: libcurl info message cache 6 (SSL re-using session ID)
+[2022.03.12-18.23.04:835][415]LogHttp: Warning: 0000025BBED80100: libcurl info message cache 7 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2022.03.12-18.23.04:835][415]LogHttp: Warning: 0000025BBED80100: libcurl info message cache 8 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2022.03.12-18.23.04:835][415]LogHttp: Warning: 0000025BBED80100: libcurl info message cache 9 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2022.03.12-18.23.04:835][415]LogHttp: Warning: 0000025BBED80100: libcurl info message cache 10 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2022.03.12-18.23.04:835][415]LogHttp: Warning: 0000025BBED80100: libcurl info message cache 11 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2022.03.12-18.23.04:835][415]LogHttp: Warning: 0000025BBED80100: libcurl info message cache 12 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2022.03.12-18.23.04:835][415]LogHttp: Warning: 0000025BBED80100: libcurl info message cache 13 (TLSv1.2 (OUT), TLS change cipher, Client hello (1):)
+[2022.03.12-18.23.04:835][415]LogHttp: Warning: 0000025BBED80100: libcurl info message cache 14 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2022.03.12-18.23.04:835][415]LogHttp: Warning: 0000025BBED80100: libcurl info message cache 15 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2022.03.12-18.23.04:835][415]LogHttp: Warning: 0000025BBED80100: libcurl info message cache 16 (SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384)
+[2022.03.12-18.23.04:835][415]LogHttp: Warning: 0000025BBED80100: libcurl info message cache 17 (ALPN, server accepted to use http/1.1)
+[2022.03.12-18.23.04:835][415]LogHttp: Warning: 0000025BBED80100: libcurl info message cache 18 (old SSL session ID is stale, removing)
+[2022.03.12-18.23.04:835][415]LogHttp: Warning: 0000025BBED80100: libcurl info message cache 19 (Server certificate:)
+[2022.03.12-18.23.04:835][415]LogHttp: Warning: 0000025BBED80100: libcurl info message cache 20 ( subject: C=CA; ST=Nova Scotia; L=Halifax Regional Municipality; O=SolutionInc Limited; CN=*.solutionip.com)
+[2022.03.12-18.23.04:836][415]LogHttp: Warning: 0000025BBED80100: libcurl info message cache 21 ( start date: Jul  6 00:00:00 2020 GMT)
+[2022.03.12-18.23.04:836][415]LogHttp: Warning: 0000025BBED80100: libcurl info message cache 22 ( expire date: Oct  9 00:00:00 2022 GMT)
+[2022.03.12-18.23.04:836][415]LogHttp: Warning: 0000025BBED80100: libcurl info message cache 23 ( subjectAltName does not match datarouter.ol.epicgames.com)
+[2022.03.12-18.23.04:836][415]LogHttp: Warning: 0000025BBED80100: libcurl info message cache 24 (SSL: no alternative certificate subject name matches target host name 'datarouter.ol.epicgames.com')
+[2022.03.12-18.23.04:836][415]LogHttp: Warning: 0000025BBED80100: libcurl info message cache 25 (Closing connection 27)
+[2022.03.12-18.23.04:836][415]LogHttp: Warning: 0000025BBED80100: libcurl info message cache 26 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2022.03.12-18.23.04:859][416]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6DED183D-4D33-102F-E218-51A5BF08AFE8%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=d9fa85ae41146a0a9ad12b97cf4de64a%7C95e33a0ae797462391beb0ac71ddb695%7C0809734e-f07b-4665-8bdd-1676e83b8884&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.03.12-18.23.06:183][469]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 4333
+[2022.03.12-18.23.06:183][469]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.03.12-18.23.08:476][544]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 4323
+[2022.03.12-18.23.08:476][544]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.03.12-18.23.16:971][877]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 4313
+[2022.03.12-18.23.16:971][877]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.03.12-18.23.33:935][573]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 4303
+[2022.03.12-18.23.33:935][573]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.03.12-18.23.36:152][660]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 4293
+[2022.03.12-18.23.36:153][660]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.03.12-18.23.49:845][199]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 4283
+[2022.03.12-18.23.49:845][199]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.03.12-18.23.59:033][551]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 4273
+[2022.03.12-18.23.59:033][551]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.03.12-18.24.04:823][776]LogHttp: Warning: 0000025BC06EDD00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6DED183D-4D33-102F-E218-51A5BF08AFE8%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=d9fa85ae41146a0a9ad12b97cf4de64a%7C95e33a0ae797462391beb0ac71ddb695%7C0809734e-f07b-4665-8bdd-1676e83b8884&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.03.12-18.24.04:823][776]LogHttp: Warning: 0000025BC06EDD00: request failed, libcurl error: 51 (SSL peer certificate or SSH remote key was not OK)
+[2022.03.12-18.24.04:823][776]LogHttp: Warning: 0000025BC06EDD00: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2022.03.12-18.24.04:823][776]LogHttp: Warning: 0000025BC06EDD00: libcurl info message cache 1 (  Trying 54.83.189.214...)
+[2022.03.12-18.24.04:823][776]LogHttp: Warning: 0000025BC06EDD00: libcurl info message cache 2 (TCP_NODELAY set)
+[2022.03.12-18.24.04:823][776]LogHttp: Warning: 0000025BC06EDD00: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (54.83.189.214) port 443 (#28))
+[2022.03.12-18.24.04:823][776]LogHttp: Warning: 0000025BC06EDD00: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2022.03.12-18.24.04:823][776]LogHttp: Warning: 0000025BC06EDD00: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2022.03.12-18.24.04:823][776]LogHttp: Warning: 0000025BC06EDD00: libcurl info message cache 6 (SSL re-using session ID)
+[2022.03.12-18.24.04:824][776]LogHttp: Warning: 0000025BC06EDD00: libcurl info message cache 7 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2022.03.12-18.24.04:824][776]LogHttp: Warning: 0000025BC06EDD00: libcurl info message cache 8 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2022.03.12-18.24.04:824][776]LogHttp: Warning: 0000025BC06EDD00: libcurl info message cache 9 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2022.03.12-18.24.04:824][776]LogHttp: Warning: 0000025BC06EDD00: libcurl info message cache 10 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2022.03.12-18.24.04:824][776]LogHttp: Warning: 0000025BC06EDD00: libcurl info message cache 11 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2022.03.12-18.24.04:824][776]LogHttp: Warning: 0000025BC06EDD00: libcurl info message cache 12 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2022.03.12-18.24.04:824][776]LogHttp: Warning: 0000025BC06EDD00: libcurl info message cache 13 (TLSv1.2 (OUT), TLS change cipher, Client hello (1):)
+[2022.03.12-18.24.04:824][776]LogHttp: Warning: 0000025BC06EDD00: libcurl info message cache 14 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2022.03.12-18.24.04:824][776]LogHttp: Warning: 0000025BC06EDD00: libcurl info message cache 15 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2022.03.12-18.24.04:824][776]LogHttp: Warning: 0000025BC06EDD00: libcurl info message cache 16 (SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384)
+[2022.03.12-18.24.04:824][776]LogHttp: Warning: 0000025BC06EDD00: libcurl info message cache 17 (ALPN, server accepted to use http/1.1)
+[2022.03.12-18.24.04:824][776]LogHttp: Warning: 0000025BC06EDD00: libcurl info message cache 18 (old SSL session ID is stale, removing)
+[2022.03.12-18.24.04:824][776]LogHttp: Warning: 0000025BC06EDD00: libcurl info message cache 19 (Server certificate:)
+[2022.03.12-18.24.04:824][776]LogHttp: Warning: 0000025BC06EDD00: libcurl info message cache 20 ( subject: C=CA; ST=Nova Scotia; L=Halifax Regional Municipality; O=SolutionInc Limited; CN=*.solutionip.com)
+[2022.03.12-18.24.04:824][776]LogHttp: Warning: 0000025BC06EDD00: libcurl info message cache 21 ( start date: Jul  6 00:00:00 2020 GMT)
+[2022.03.12-18.24.04:824][776]LogHttp: Warning: 0000025BC06EDD00: libcurl info message cache 22 ( expire date: Oct  9 00:00:00 2022 GMT)
+[2022.03.12-18.24.04:824][776]LogHttp: Warning: 0000025BC06EDD00: libcurl info message cache 23 ( subjectAltName does not match datarouter.ol.epicgames.com)
+[2022.03.12-18.24.04:824][776]LogHttp: Warning: 0000025BC06EDD00: libcurl info message cache 24 (SSL: no alternative certificate subject name matches target host name 'datarouter.ol.epicgames.com')
+[2022.03.12-18.24.04:824][776]LogHttp: Warning: 0000025BC06EDD00: libcurl info message cache 25 (Closing connection 28)
+[2022.03.12-18.24.04:824][776]LogHttp: Warning: 0000025BC06EDD00: libcurl info message cache 26 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2022.03.12-18.24.04:825][776]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6DED183D-4D33-102F-E218-51A5BF08AFE8%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=d9fa85ae41146a0a9ad12b97cf4de64a%7C95e33a0ae797462391beb0ac71ddb695%7C0809734e-f07b-4665-8bdd-1676e83b8884&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.03.12-18.24.06:721][853]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 4263
+[2022.03.12-18.24.06:721][853]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.03.12-18.24.15:668][207]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 4253
+[2022.03.12-18.24.15:668][207]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.03.12-18.24.20:114][385]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 4243
+[2022.03.12-18.24.20:114][385]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.03.12-18.24.22:286][471]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 4233
+[2022.03.12-18.24.22:287][471]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.03.12-18.24.35:153][990]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 4223
+[2022.03.12-18.24.35:153][990]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.03.12-18.24.46:781][451]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 4213
+[2022.03.12-18.24.46:781][451]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.03.12-18.24.46:781][451]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.03.12-18.24.46:781][451]LogShaderCompilers: Display: Total job queries 6913, among them cache hits 4 (0.06%)
+[2022.03.12-18.24.46:781][451]LogShaderCompilers: Display: Tracking 2666 distinct input hashes that result in 934 distinct outputs (35.03%)
+[2022.03.12-18.24.46:781][451]LogShaderCompilers: Display: RAM used: 9.70 MB (0.01 GB) of 409.60 MB (0.40 GB) budget. Usage: 2.37%
+[2022.03.12-18.24.46:781][451]LogShaderCompilers: Display: ================================================
+[2022.03.12-18.24.53:433][703]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 4203
+[2022.03.12-18.24.53:433][703]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.03.12-18.24.59:494][913]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 4193
+[2022.03.12-18.24.59:496][913]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.03.12-18.25.04:848][114]LogHttp: Warning: 0000025B2ADA5600: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6DED183D-4D33-102F-E218-51A5BF08AFE8%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=d9fa85ae41146a0a9ad12b97cf4de64a%7C95e33a0ae797462391beb0ac71ddb695%7C0809734e-f07b-4665-8bdd-1676e83b8884&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.03.12-18.25.04:848][114]LogHttp: Warning: 0000025B2ADA5600: request failed, libcurl error: 51 (SSL peer certificate or SSH remote key was not OK)
+[2022.03.12-18.25.04:849][114]LogHttp: Warning: 0000025B2ADA5600: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2022.03.12-18.25.04:849][114]LogHttp: Warning: 0000025B2ADA5600: libcurl info message cache 1 (  Trying 52.22.55.40...)
+[2022.03.12-18.25.04:849][114]LogHttp: Warning: 0000025B2ADA5600: libcurl info message cache 2 (TCP_NODELAY set)
+[2022.03.12-18.25.04:849][114]LogHttp: Warning: 0000025B2ADA5600: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (52.22.55.40) port 443 (#29))
+[2022.03.12-18.25.04:849][114]LogHttp: Warning: 0000025B2ADA5600: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2022.03.12-18.25.04:849][114]LogHttp: Warning: 0000025B2ADA5600: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2022.03.12-18.25.04:849][114]LogHttp: Warning: 0000025B2ADA5600: libcurl info message cache 6 (SSL re-using session ID)
+[2022.03.12-18.25.04:849][114]LogHttp: Warning: 0000025B2ADA5600: libcurl info message cache 7 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2022.03.12-18.25.04:849][114]LogHttp: Warning: 0000025B2ADA5600: libcurl info message cache 8 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2022.03.12-18.25.04:849][114]LogHttp: Warning: 0000025B2ADA5600: libcurl info message cache 9 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2022.03.12-18.25.04:849][114]LogHttp: Warning: 0000025B2ADA5600: libcurl info message cache 10 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2022.03.12-18.25.04:851][114]LogHttp: Warning: 0000025B2ADA5600: libcurl info message cache 11 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2022.03.12-18.25.04:851][114]LogHttp: Warning: 0000025B2ADA5600: libcurl info message cache 12 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2022.03.12-18.25.04:852][114]LogHttp: Warning: 0000025B2ADA5600: libcurl info message cache 13 (TLSv1.2 (OUT), TLS change cipher, Client hello (1):)
+[2022.03.12-18.25.04:852][114]LogHttp: Warning: 0000025B2ADA5600: libcurl info message cache 14 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2022.03.12-18.25.04:852][114]LogHttp: Warning: 0000025B2ADA5600: libcurl info message cache 15 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2022.03.12-18.25.04:852][114]LogHttp: Warning: 0000025B2ADA5600: libcurl info message cache 16 (SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384)
+[2022.03.12-18.25.04:852][114]LogHttp: Warning: 0000025B2ADA5600: libcurl info message cache 17 (ALPN, server accepted to use http/1.1)
+[2022.03.12-18.25.04:852][114]LogHttp: Warning: 0000025B2ADA5600: libcurl info message cache 18 (old SSL session ID is stale, removing)
+[2022.03.12-18.25.04:852][114]LogHttp: Warning: 0000025B2ADA5600: libcurl info message cache 19 (Server certificate:)
+[2022.03.12-18.25.04:852][114]LogHttp: Warning: 0000025B2ADA5600: libcurl info message cache 20 ( subject: C=CA; ST=Nova Scotia; L=Halifax Regional Municipality; O=SolutionInc Limited; CN=*.solutionip.com)
+[2022.03.12-18.25.04:852][114]LogHttp: Warning: 0000025B2ADA5600: libcurl info message cache 21 ( start date: Jul  6 00:00:00 2020 GMT)
+[2022.03.12-18.25.04:852][114]LogHttp: Warning: 0000025B2ADA5600: libcurl info message cache 22 ( expire date: Oct  9 00:00:00 2022 GMT)
+[2022.03.12-18.25.04:852][114]LogHttp: Warning: 0000025B2ADA5600: libcurl info message cache 23 ( subjectAltName does not match datarouter.ol.epicgames.com)
+[2022.03.12-18.25.04:852][114]LogHttp: Warning: 0000025B2ADA5600: libcurl info message cache 24 (SSL: no alternative certificate subject name matches target host name 'datarouter.ol.epicgames.com')
+[2022.03.12-18.25.04:852][114]LogHttp: Warning: 0000025B2ADA5600: libcurl info message cache 25 (Closing connection 29)
+[2022.03.12-18.25.04:852][114]LogHttp: Warning: 0000025B2ADA5600: libcurl info message cache 26 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2022.03.12-18.25.04:853][114]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6DED183D-4D33-102F-E218-51A5BF08AFE8%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=d9fa85ae41146a0a9ad12b97cf4de64a%7C95e33a0ae797462391beb0ac71ddb695%7C0809734e-f07b-4665-8bdd-1676e83b8884&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.03.12-18.25.08:083][217]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 4183
+[2022.03.12-18.25.08:083][217]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.03.12-18.25.16:514][502]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 4173
+[2022.03.12-18.25.16:514][502]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.03.12-18.25.35:266][236]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 4163
+[2022.03.12-18.25.35:266][236]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.03.12-18.25.35:974][263]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 4153
+[2022.03.12-18.25.35:974][263]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.03.12-18.25.43:296][568]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 4143
+[2022.03.12-18.25.43:296][568]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.03.12-18.25.49:240][812]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 4133
+[2022.03.12-18.25.49:240][812]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.03.12-18.25.53:582][979]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 4123
+[2022.03.12-18.25.53:582][979]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.03.12-18.26.04:834][381]LogHttp: Warning: 0000025B26948100: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6DED183D-4D33-102F-E218-51A5BF08AFE8%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=d9fa85ae41146a0a9ad12b97cf4de64a%7C95e33a0ae797462391beb0ac71ddb695%7C0809734e-f07b-4665-8bdd-1676e83b8884&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.03.12-18.26.04:834][381]LogHttp: Warning: 0000025B26948100: request failed, libcurl error: 51 (SSL peer certificate or SSH remote key was not OK)
+[2022.03.12-18.26.04:834][381]LogHttp: Warning: 0000025B26948100: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2022.03.12-18.26.04:834][381]LogHttp: Warning: 0000025B26948100: libcurl info message cache 1 (  Trying 52.1.166.188...)
+[2022.03.12-18.26.04:834][381]LogHttp: Warning: 0000025B26948100: libcurl info message cache 2 (TCP_NODELAY set)
+[2022.03.12-18.26.04:834][381]LogHttp: Warning: 0000025B26948100: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (52.1.166.188) port 443 (#30))
+[2022.03.12-18.26.04:834][381]LogHttp: Warning: 0000025B26948100: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2022.03.12-18.26.04:834][381]LogHttp: Warning: 0000025B26948100: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2022.03.12-18.26.04:834][381]LogHttp: Warning: 0000025B26948100: libcurl info message cache 6 (SSL re-using session ID)
+[2022.03.12-18.26.04:834][381]LogHttp: Warning: 0000025B26948100: libcurl info message cache 7 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2022.03.12-18.26.04:834][381]LogHttp: Warning: 0000025B26948100: libcurl info message cache 8 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2022.03.12-18.26.04:834][381]LogHttp: Warning: 0000025B26948100: libcurl info message cache 9 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2022.03.12-18.26.04:834][381]LogHttp: Warning: 0000025B26948100: libcurl info message cache 10 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2022.03.12-18.26.04:835][381]LogHttp: Warning: 0000025B26948100: libcurl info message cache 11 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2022.03.12-18.26.04:835][381]LogHttp: Warning: 0000025B26948100: libcurl info message cache 12 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2022.03.12-18.26.04:835][381]LogHttp: Warning: 0000025B26948100: libcurl info message cache 13 (TLSv1.2 (OUT), TLS change cipher, Client hello (1):)
+[2022.03.12-18.26.04:835][381]LogHttp: Warning: 0000025B26948100: libcurl info message cache 14 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2022.03.12-18.26.04:835][381]LogHttp: Warning: 0000025B26948100: libcurl info message cache 15 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2022.03.12-18.26.04:835][381]LogHttp: Warning: 0000025B26948100: libcurl info message cache 16 (SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384)
+[2022.03.12-18.26.04:835][381]LogHttp: Warning: 0000025B26948100: libcurl info message cache 17 (ALPN, server accepted to use http/1.1)
+[2022.03.12-18.26.04:835][381]LogHttp: Warning: 0000025B26948100: libcurl info message cache 18 (old SSL session ID is stale, removing)
+[2022.03.12-18.26.04:835][381]LogHttp: Warning: 0000025B26948100: libcurl info message cache 19 (Server certificate:)
+[2022.03.12-18.26.04:835][381]LogHttp: Warning: 0000025B26948100: libcurl info message cache 20 ( subject: C=CA; ST=Nova Scotia; L=Halifax Regional Municipality; O=SolutionInc Limited; CN=*.solutionip.com)
+[2022.03.12-18.26.04:835][381]LogHttp: Warning: 0000025B26948100: libcurl info message cache 21 ( start date: Jul  6 00:00:00 2020 GMT)
+[2022.03.12-18.26.04:835][381]LogHttp: Warning: 0000025B26948100: libcurl info message cache 22 ( expire date: Oct  9 00:00:00 2022 GMT)
+[2022.03.12-18.26.04:835][381]LogHttp: Warning: 0000025B26948100: libcurl info message cache 23 ( subjectAltName does not match datarouter.ol.epicgames.com)
+[2022.03.12-18.26.04:835][381]LogHttp: Warning: 0000025B26948100: libcurl info message cache 24 (SSL: no alternative certificate subject name matches target host name 'datarouter.ol.epicgames.com')
+[2022.03.12-18.26.04:835][381]LogHttp: Warning: 0000025B26948100: libcurl info message cache 25 (Closing connection 30)
+[2022.03.12-18.26.04:835][381]LogHttp: Warning: 0000025B26948100: libcurl info message cache 26 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2022.03.12-18.26.04:855][382]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6DED183D-4D33-102F-E218-51A5BF08AFE8%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=d9fa85ae41146a0a9ad12b97cf4de64a%7C95e33a0ae797462391beb0ac71ddb695%7C0809734e-f07b-4665-8bdd-1676e83b8884&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.03.12-18.26.11:185][640]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 4113
+[2022.03.12-18.26.11:185][640]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.03.12-18.26.12:215][682]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 4103
+[2022.03.12-18.26.12:215][682]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.03.12-18.26.14:636][778]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 4093
+[2022.03.12-18.26.14:636][778]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.03.12-18.26.20:738][ 23]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 4083
+[2022.03.12-18.26.20:738][ 23]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.03.12-18.26.37:112][687]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 4073
+[2022.03.12-18.26.37:112][687]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.03.12-18.26.41:449][859]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 4063
+[2022.03.12-18.26.41:449][859]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.03.12-18.26.50:195][249]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 4053
+[2022.03.12-18.26.50:195][249]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.03.12-18.26.56:549][599]LogUObjectHash: Compacting FUObjectHashTables data took   3.58ms
+[2022.03.12-18.26.58:096][599]LogSlate: Window '保存内容' being destroyed
+[2022.03.12-18.26.58:188][599]LogSavePackage: Moving '../../../../../../Users/Guan Xinyu/Desktop/Git/CS4188_Fishing/VR_Fishing/Saved/Backdrop73E525BB410E391DA02879A2797C4001.tmp' to '../../../../../../Users/Guan Xinyu/Desktop/Git/CS4188_Fishing/VR_Fishing/Content/Models/Objects/Textures/Backdrop.uasset'
+[2022.03.12-18.26.58:224][599]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Objects/Bushes" FILE="../../../../../../Users/Guan Xinyu/Desktop/Git/CS4188_Fishing/VR_Fishing/Content/Models/Objects/Bushes.uasset" SILENT=true
+[2022.03.12-18.26.58:236][599]LogSavePackage: Moving '../../../../../../Users/Guan Xinyu/Desktop/Git/CS4188_Fishing/VR_Fishing/Saved/Bushes49ED2EE54C97E3435C9808B5E87AE3D2.tmp' to '../../../../../../Users/Guan Xinyu/Desktop/Git/CS4188_Fishing/VR_Fishing/Content/Models/Objects/Bushes.uasset'
+[2022.03.12-18.26.58:268][599]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Objects/diffuse_Black" FILE="../../../../../../Users/Guan Xinyu/Desktop/Git/CS4188_Fishing/VR_Fishing/Content/Models/Objects/diffuse_Black.uasset" SILENT=true
+[2022.03.12-18.26.58:279][599]LogSavePackage: Moving '../../../../../../Users/Guan Xinyu/Desktop/Git/CS4188_Fishing/VR_Fishing/Saved/diffuse_Black1FFC03AF40261A46B2C762BF6F2C8DF6.tmp' to '../../../../../../Users/Guan Xinyu/Desktop/Git/CS4188_Fishing/VR_Fishing/Content/Models/Objects/diffuse_Black.uasset'
+[2022.03.12-18.26.58:309][599]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Objects/FishingRod" FILE="../../../../../../Users/Guan Xinyu/Desktop/Git/CS4188_Fishing/VR_Fishing/Content/Models/Objects/FishingRod.uasset" SILENT=true
+[2022.03.12-18.26.58:327][599]LogSavePackage: Moving '../../../../../../Users/Guan Xinyu/Desktop/Git/CS4188_Fishing/VR_Fishing/Saved/FishingRod06D6831F4A72F80B8767DF969645C1C3.tmp' to '../../../../../../Users/Guan Xinyu/Desktop/Git/CS4188_Fishing/VR_Fishing/Content/Models/Objects/FishingRod.uasset'
+[2022.03.12-18.26.58:357][599]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Objects/halo" FILE="../../../../../../Users/Guan Xinyu/Desktop/Git/CS4188_Fishing/VR_Fishing/Content/Models/Objects/halo.uasset" SILENT=true
+[2022.03.12-18.26.58:376][599]LogSavePackage: Moving '../../../../../../Users/Guan Xinyu/Desktop/Git/CS4188_Fishing/VR_Fishing/Saved/halo15B2E68343F851940700DCAD1EF988C3.tmp' to '../../../../../../Users/Guan Xinyu/Desktop/Git/CS4188_Fishing/VR_Fishing/Content/Models/Objects/halo.uasset'
+[2022.03.12-18.26.58:407][599]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Objects/Island" FILE="../../../../../../Users/Guan Xinyu/Desktop/Git/CS4188_Fishing/VR_Fishing/Content/Models/Objects/Island.uasset" SILENT=true
+[2022.03.12-18.26.58:418][599]LogSavePackage: Moving '../../../../../../Users/Guan Xinyu/Desktop/Git/CS4188_Fishing/VR_Fishing/Saved/IslandD3EE570F477C45F988F8618CF56DAEAB.tmp' to '../../../../../../Users/Guan Xinyu/Desktop/Git/CS4188_Fishing/VR_Fishing/Content/Models/Objects/Island.uasset'
+[2022.03.12-18.26.58:460][599]LogSavePackage: Moving '../../../../../../Users/Guan Xinyu/Desktop/Git/CS4188_Fishing/VR_Fishing/Saved/Island_Animated_tree_BackdropB582692747817E6DDD40B7BC26CA4302.tmp' to '../../../../../../Users/Guan Xinyu/Desktop/Git/CS4188_Fishing/VR_Fishing/Content/Models/Objects/Island_Animated_tree_Backdrop.uasset'
+[2022.03.12-18.26.58:510][599]LogSavePackage: Moving '../../../../../../Users/Guan Xinyu/Desktop/Git/CS4188_Fishing/VR_Fishing/Saved/Island_Animated_tree_BushesA8F8C3BF4D1ED474680E53849DDD3C34.tmp' to '../../../../../../Users/Guan Xinyu/Desktop/Git/CS4188_Fishing/VR_Fishing/Content/Models/Objects/Island_Animated_tree_Bushes.uasset'
+[2022.03.12-18.26.58:556][599]LogSavePackage: Moving '../../../../../../Users/Guan Xinyu/Desktop/Git/CS4188_Fishing/VR_Fishing/Saved/Island_Animated_tree_Island1B1485684D1D99AF210F33B3CD71E798.tmp' to '../../../../../../Users/Guan Xinyu/Desktop/Git/CS4188_Fishing/VR_Fishing/Content/Models/Objects/Island_Animated_tree_Island.uasset'
+[2022.03.12-18.26.58:626][599]LogSavePackage: Moving '../../../../../../Users/Guan Xinyu/Desktop/Git/CS4188_Fishing/VR_Fishing/Saved/Island_Animated_tree_Ocean675DE2374F8A32433947C0AA6E4117A5.tmp' to '../../../../../../Users/Guan Xinyu/Desktop/Git/CS4188_Fishing/VR_Fishing/Content/Models/Objects/Island_Animated_tree_Ocean.uasset'
+[2022.03.12-18.26.58:684][599]LogSavePackage: Moving '../../../../../../Users/Guan Xinyu/Desktop/Git/CS4188_Fishing/VR_Fishing/Saved/Island_Animated_tree_PalmTrees17A9EB19408673C186D8E0883C0CA44D.tmp' to '../../../../../../Users/Guan Xinyu/Desktop/Git/CS4188_Fishing/VR_Fishing/Content/Models/Objects/Island_Animated_tree_PalmTrees.uasset'
+[2022.03.12-18.26.58:733][599]LogSavePackage: Moving '../../../../../../Users/Guan Xinyu/Desktop/Git/CS4188_Fishing/VR_Fishing/Saved/Island_Animated_tree_Rocks7FFDB2F94F6108693EF0D69F9CF9DF2C.tmp' to '../../../../../../Users/Guan Xinyu/Desktop/Git/CS4188_Fishing/VR_Fishing/Content/Models/Objects/Island_Animated_tree_Rocks.uasset'
+[2022.03.12-18.26.58:768][599]LogSavePackage: Moving '../../../../../../Users/Guan Xinyu/Desktop/Git/CS4188_Fishing/VR_Fishing/Saved/Island_BaseColor5C06903A434FF8CDFA9A61B69036F799.tmp' to '../../../../../../Users/Guan Xinyu/Desktop/Git/CS4188_Fishing/VR_Fishing/Content/Models/Objects/Textures/Island_BaseColor.uasset'
+[2022.03.12-18.26.58:824][599]LogSavePackage: Moving '../../../../../../Users/Guan Xinyu/Desktop/Git/CS4188_Fishing/VR_Fishing/Saved/low_poly_fish_basic_Fish_MESHAE545A1C4A16532896AE48B81208CE08.tmp' to '../../../../../../Users/Guan Xinyu/Desktop/Git/CS4188_Fishing/VR_Fishing/Content/Models/Objects/low_poly_fish_basic_Fish_MESH.uasset'
+[2022.03.12-18.26.58:878][599]LogSavePackage: Moving '../../../../../../Users/Guan Xinyu/Desktop/Git/CS4188_Fishing/VR_Fishing/Saved/low_poly_fish_Catfish_1_Fish_MESD8EF817543C2FEA81FBD1EA503808E61.tmp' to '../../../../../../Users/Guan Xinyu/Desktop/Git/CS4188_Fishing/VR_Fishing/Content/Models/Objects/low_poly_fish_Catfish_1_Fish_MESH.uasset'
+[2022.03.12-18.26.58:935][599]LogSavePackage: Moving '../../../../../../Users/Guan Xinyu/Desktop/Git/CS4188_Fishing/VR_Fishing/Saved/low_poly_fish_Catfish_Fish_MESH1058FCB34A4CAFF4AF845FB83DF0BABB.tmp' to '../../../../../../Users/Guan Xinyu/Desktop/Git/CS4188_Fishing/VR_Fishing/Content/Models/Objects/low_poly_fish_Catfish_Fish_MESH.uasset'
+[2022.03.12-18.26.58:984][599]LogSavePackage: Moving '../../../../../../Users/Guan Xinyu/Desktop/Git/CS4188_Fishing/VR_Fishing/Saved/low_poly_fish_golden_Fish_MESHB109969743AB3204E80ACE8BEFCFA2AE.tmp' to '../../../../../../Users/Guan Xinyu/Desktop/Git/CS4188_Fishing/VR_Fishing/Content/Models/Objects/low_poly_fish_golden_Fish_MESH.uasset'
+[2022.03.12-18.26.59:016][599]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Objects/Mat" FILE="../../../../../../Users/Guan Xinyu/Desktop/Git/CS4188_Fishing/VR_Fishing/Content/Models/Objects/Mat.uasset" SILENT=true
+[2022.03.12-18.26.59:031][599]LogSavePackage: Moving '../../../../../../Users/Guan Xinyu/Desktop/Git/CS4188_Fishing/VR_Fishing/Saved/Mat656AA62146998B4C8835D2BAB90FDD87.tmp' to '../../../../../../Users/Guan Xinyu/Desktop/Git/CS4188_Fishing/VR_Fishing/Content/Models/Objects/Mat.uasset'
+[2022.03.12-18.26.59:064][599]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Objects/Material" FILE="../../../../../../Users/Guan Xinyu/Desktop/Git/CS4188_Fishing/VR_Fishing/Content/Models/Objects/Material.uasset" SILENT=true
+[2022.03.12-18.26.59:078][599]LogSavePackage: Moving '../../../../../../Users/Guan Xinyu/Desktop/Git/CS4188_Fishing/VR_Fishing/Saved/Material77A28D17425A38B453EECB9A55124A85.tmp' to '../../../../../../Users/Guan Xinyu/Desktop/Git/CS4188_Fishing/VR_Fishing/Content/Models/Objects/Material.uasset'
+[2022.03.12-18.26.59:112][599]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Objects/Material_001" FILE="../../../../../../Users/Guan Xinyu/Desktop/Git/CS4188_Fishing/VR_Fishing/Content/Models/Objects/Material_001.uasset" SILENT=true
+[2022.03.12-18.26.59:126][599]LogSavePackage: Moving '../../../../../../Users/Guan Xinyu/Desktop/Git/CS4188_Fishing/VR_Fishing/Saved/Material_001EA14AFCC409115D9822A1E9F027445FB.tmp' to '../../../../../../Users/Guan Xinyu/Desktop/Git/CS4188_Fishing/VR_Fishing/Content/Models/Objects/Material_001.uasset'
+[2022.03.12-18.26.59:160][599]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Objects/Material_002" FILE="../../../../../../Users/Guan Xinyu/Desktop/Git/CS4188_Fishing/VR_Fishing/Content/Models/Objects/Material_002.uasset" SILENT=true
+[2022.03.12-18.26.59:174][599]LogSavePackage: Moving '../../../../../../Users/Guan Xinyu/Desktop/Git/CS4188_Fishing/VR_Fishing/Saved/Material_00270A2FD94449CA0B47CAACAA37BA123E2.tmp' to '../../../../../../Users/Guan Xinyu/Desktop/Git/CS4188_Fishing/VR_Fishing/Content/Models/Objects/Material_002.uasset'
+[2022.03.12-18.26.59:203][599]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Objects/Material_003" FILE="../../../../../../Users/Guan Xinyu/Desktop/Git/CS4188_Fishing/VR_Fishing/Content/Models/Objects/Material_003.uasset" SILENT=true
+[2022.03.12-18.26.59:214][599]LogSavePackage: Moving '../../../../../../Users/Guan Xinyu/Desktop/Git/CS4188_Fishing/VR_Fishing/Saved/Material_0034FFE0DC44926EC5F554FDAB395DD920A.tmp' to '../../../../../../Users/Guan Xinyu/Desktop/Git/CS4188_Fishing/VR_Fishing/Content/Models/Objects/Material_003.uasset'
+[2022.03.12-18.26.59:247][599]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Objects/Material_004" FILE="../../../../../../Users/Guan Xinyu/Desktop/Git/CS4188_Fishing/VR_Fishing/Content/Models/Objects/Material_004.uasset" SILENT=true
+[2022.03.12-18.26.59:264][599]LogSavePackage: Moving '../../../../../../Users/Guan Xinyu/Desktop/Git/CS4188_Fishing/VR_Fishing/Saved/Material_0043DDA2A4E4DDDF1A65400D383B83ED3BD.tmp' to '../../../../../../Users/Guan Xinyu/Desktop/Git/CS4188_Fishing/VR_Fishing/Content/Models/Objects/Material_004.uasset'
+[2022.03.12-18.26.59:295][599]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Objects/Material_005" FILE="../../../../../../Users/Guan Xinyu/Desktop/Git/CS4188_Fishing/VR_Fishing/Content/Models/Objects/Material_005.uasset" SILENT=true
+[2022.03.12-18.26.59:308][599]LogSavePackage: Moving '../../../../../../Users/Guan Xinyu/Desktop/Git/CS4188_Fishing/VR_Fishing/Saved/Material_00514E508F048EC3E70EAAED3B6A490E92E.tmp' to '../../../../../../Users/Guan Xinyu/Desktop/Git/CS4188_Fishing/VR_Fishing/Content/Models/Objects/Material_005.uasset'
+[2022.03.12-18.26.59:341][599]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Objects/Ocean" FILE="../../../../../../Users/Guan Xinyu/Desktop/Git/CS4188_Fishing/VR_Fishing/Content/Models/Objects/Ocean.uasset" SILENT=true
+[2022.03.12-18.26.59:356][599]LogSavePackage: Moving '../../../../../../Users/Guan Xinyu/Desktop/Git/CS4188_Fishing/VR_Fishing/Saved/OceanCE029495421F1EC55091A3BA6BFCBC12.tmp' to '../../../../../../Users/Guan Xinyu/Desktop/Git/CS4188_Fishing/VR_Fishing/Content/Models/Objects/Ocean.uasset'
+[2022.03.12-18.26.59:387][599]LogSavePackage: Moving '../../../../../../Users/Guan Xinyu/Desktop/Git/CS4188_Fishing/VR_Fishing/Saved/Ocean_BaseColor65DCC5D04658876670BB3F86F8E713D2.tmp' to '../../../../../../Users/Guan Xinyu/Desktop/Git/CS4188_Fishing/VR_Fishing/Content/Models/Objects/Textures/Ocean_BaseColor.uasset'
+[2022.03.12-18.26.59:410][599]LogSavePackage: Moving '../../../../../../Users/Guan Xinyu/Desktop/Git/CS4188_Fishing/VR_Fishing/Saved/Ocean_Roughness6FD2870C4BE8BA3CAF691B82FC14FBC1.tmp' to '../../../../../../Users/Guan Xinyu/Desktop/Git/CS4188_Fishing/VR_Fishing/Content/Models/Objects/Textures/Ocean_Roughness.uasset'
+[2022.03.12-18.26.59:444][599]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Objects/PalmTrees" FILE="../../../../../../Users/Guan Xinyu/Desktop/Git/CS4188_Fishing/VR_Fishing/Content/Models/Objects/PalmTrees.uasset" SILENT=true
+[2022.03.12-18.26.59:461][599]LogSavePackage: Moving '../../../../../../Users/Guan Xinyu/Desktop/Git/CS4188_Fishing/VR_Fishing/Saved/PalmTrees5B7200F2465647509A2A9EB1527955C1.tmp' to '../../../../../../Users/Guan Xinyu/Desktop/Git/CS4188_Fishing/VR_Fishing/Content/Models/Objects/PalmTrees.uasset'
+[2022.03.12-18.26.59:477][599]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Texture/Planks1c" FILE="../../../../../../Users/Guan Xinyu/Desktop/Git/CS4188_Fishing/VR_Fishing/Content/Texture/Planks1c.uasset" SILENT=true
+[2022.03.12-18.27.00:401][599]LogSavePackage: Moving '../../../../../../Users/Guan Xinyu/Desktop/Git/CS4188_Fishing/VR_Fishing/Saved/Planks1cEBBC6E1842BDF44C959DEB9874EEFE42.tmp' to '../../../../../../Users/Guan Xinyu/Desktop/Git/CS4188_Fishing/VR_Fishing/Content/Texture/Planks1c.uasset'
+[2022.03.12-18.27.00:431][599]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Objects/Rocks" FILE="../../../../../../Users/Guan Xinyu/Desktop/Git/CS4188_Fishing/VR_Fishing/Content/Models/Objects/Rocks.uasset" SILENT=true
+[2022.03.12-18.27.00:462][599]LogSavePackage: Moving '../../../../../../Users/Guan Xinyu/Desktop/Git/CS4188_Fishing/VR_Fishing/Saved/Rocks8437C7884E7542166233E5A3489F4563.tmp' to '../../../../../../Users/Guan Xinyu/Desktop/Git/CS4188_Fishing/VR_Fishing/Content/Models/Objects/Rocks.uasset'
+[2022.03.12-18.27.00:478][599]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Texture/wood_0911-01A_DIFFUSE" FILE="../../../../../../Users/Guan Xinyu/Desktop/Git/CS4188_Fishing/VR_Fishing/Content/Texture/wood_0911-01A_DIFFUSE.uasset" SILENT=true
+[2022.03.12-18.27.01:517][599]LogSavePackage: Moving '../../../../../../Users/Guan Xinyu/Desktop/Git/CS4188_Fishing/VR_Fishing/Saved/wood_0911-01A_DIFFUSE4DFF5CCD41C5FAB19131579DB77514FF.tmp' to '../../../../../../Users/Guan Xinyu/Desktop/Git/CS4188_Fishing/VR_Fishing/Content/Texture/wood_0911-01A_DIFFUSE.uasset'
+[2022.03.12-18.27.01:679][600]AssetCheck: New page: 资产保存：多个资产
+[2022.03.12-18.27.01:680][600]LogContentValidation: Display: 正在验证Texture2D /Game/Texture/wood_0911-01A_DIFFUSE.wood_0911-01A_DIFFUSE
+[2022.03.12-18.27.01:680][600]LogContentValidation: Display: 正在验证Texture2D /Game/Texture/Planks1c.Planks1c
+[2022.03.12-18.27.01:680][600]LogContentValidation: Display: 正在验证Texture2D /Game/Models/Objects/Textures/Ocean_Roughness.Ocean_Roughness
+[2022.03.12-18.27.01:680][600]LogContentValidation: Display: 正在验证Texture2D /Game/Models/Objects/Textures/Ocean_BaseColor.Ocean_BaseColor
+[2022.03.12-18.27.01:680][600]LogContentValidation: Display: 正在验证Texture2D /Game/Models/Objects/Textures/Island_BaseColor.Island_BaseColor
+[2022.03.12-18.27.01:680][600]LogContentValidation: Display: 正在验证Texture2D /Game/Models/Objects/Textures/Backdrop.Backdrop
+[2022.03.12-18.27.01:680][600]LogContentValidation: Display: 正在验证StaticMesh /Game/Models/Objects/low_poly_fish_golden_Fish_MESH.low_poly_fish_golden_Fish_MESH
+[2022.03.12-18.27.01:680][600]LogContentValidation: Display: 正在验证StaticMesh /Game/Models/Objects/low_poly_fish_Catfish_Fish_MESH.low_poly_fish_Catfish_Fish_MESH
+[2022.03.12-18.27.01:681][600]LogContentValidation: Display: 正在验证Material /Game/Models/Objects/Material_005.Material_005
+[2022.03.12-18.27.01:681][600]LogContentValidation: Display: 正在验证StaticMesh /Game/Models/Objects/low_poly_fish_Catfish_1_Fish_MESH.low_poly_fish_Catfish_1_Fish_MESH
+[2022.03.12-18.27.01:681][600]LogContentValidation: Display: 正在验证Material /Game/Models/Objects/Material_004.Material_004
+[2022.03.12-18.27.01:681][600]LogContentValidation: Display: 正在验证Material /Game/Models/Objects/Material_003.Material_003
+[2022.03.12-18.27.01:681][600]LogContentValidation: Display: 正在验证Material /Game/Models/Objects/Material_002.Material_002
+[2022.03.12-18.27.01:681][600]LogContentValidation: Display: 正在验证Material /Game/Models/Objects/Material_001.Material_001
+[2022.03.12-18.27.01:681][600]LogContentValidation: Display: 正在验证StaticMesh /Game/Models/Objects/low_poly_fish_basic_Fish_MESH.low_poly_fish_basic_Fish_MESH
+[2022.03.12-18.27.01:681][600]LogContentValidation: Display: 正在验证Material /Game/Models/Objects/Rocks.Rocks
+[2022.03.12-18.27.01:681][600]LogContentValidation: Display: 正在验证StaticMesh /Game/Models/Objects/Island_Animated_tree_Rocks.Island_Animated_tree_Rocks
+[2022.03.12-18.27.01:681][600]LogContentValidation: Display: 正在验证Material /Game/Models/Objects/Bushes.Bushes
+[2022.03.12-18.27.01:682][600]LogContentValidation: Display: 正在验证StaticMesh /Game/Models/Objects/Island_Animated_tree_Bushes.Island_Animated_tree_Bushes
+[2022.03.12-18.27.01:682][600]LogContentValidation: Display: 正在验证Material /Game/Models/Objects/PalmTrees.PalmTrees
+[2022.03.12-18.27.01:682][600]LogContentValidation: Display: 正在验证StaticMesh /Game/Models/Objects/Island_Animated_tree_PalmTrees.Island_Animated_tree_PalmTrees
+[2022.03.12-18.27.01:682][600]LogContentValidation: Display: 正在验证Material /Game/Models/Objects/Ocean.Ocean
+[2022.03.12-18.27.01:682][600]LogContentValidation: Display: 正在验证StaticMesh /Game/Models/Objects/Island_Animated_tree_Ocean.Island_Animated_tree_Ocean
+[2022.03.12-18.27.01:683][600]LogContentValidation: Display: 正在验证Material /Game/Models/Objects/Island.Island
+[2022.03.12-18.27.01:683][600]LogContentValidation: Display: 正在验证StaticMesh /Game/Models/Objects/Island_Animated_tree_Island.Island_Animated_tree_Island
+[2022.03.12-18.27.01:683][600]LogContentValidation: Display: 正在验证Material /Game/Models/Objects/Material.Material
+[2022.03.12-18.27.01:683][600]LogContentValidation: Display: 正在验证StaticMesh /Game/Models/Objects/Island_Animated_tree_Backdrop.Island_Animated_tree_Backdrop
+[2022.03.12-18.27.01:683][600]LogContentValidation: Display: 正在验证Material /Game/Models/Objects/diffuse_Black.diffuse_Black
+[2022.03.12-18.27.01:683][600]LogContentValidation: Display: 正在验证StaticMesh /Game/Models/Objects/halo.halo
+[2022.03.12-18.27.01:683][600]LogContentValidation: Display: 正在验证Material /Game/Models/Objects/Mat.Mat
+[2022.03.12-18.27.01:683][600]LogContentValidation: Display: 正在验证StaticMesh /Game/Models/Objects/FishingRod.FishingRod
+[2022.03.12-18.27.04:807][695]LogHttp: Warning: 0000025BC40B1D00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6DED183D-4D33-102F-E218-51A5BF08AFE8%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=d9fa85ae41146a0a9ad12b97cf4de64a%7C95e33a0ae797462391beb0ac71ddb695%7C0809734e-f07b-4665-8bdd-1676e83b8884&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.03.12-18.27.04:807][695]LogHttp: Warning: 0000025BC40B1D00: request failed, libcurl error: 51 (SSL peer certificate or SSH remote key was not OK)
+[2022.03.12-18.27.04:807][695]LogHttp: Warning: 0000025BC40B1D00: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2022.03.12-18.27.04:807][695]LogHttp: Warning: 0000025BC40B1D00: libcurl info message cache 1 (  Trying 34.206.123.162...)
+[2022.03.12-18.27.04:807][695]LogHttp: Warning: 0000025BC40B1D00: libcurl info message cache 2 (TCP_NODELAY set)
+[2022.03.12-18.27.04:807][695]LogHttp: Warning: 0000025BC40B1D00: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (34.206.123.162) port 443 (#31))
+[2022.03.12-18.27.04:807][695]LogHttp: Warning: 0000025BC40B1D00: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2022.03.12-18.27.04:807][695]LogHttp: Warning: 0000025BC40B1D00: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2022.03.12-18.27.04:807][695]LogHttp: Warning: 0000025BC40B1D00: libcurl info message cache 6 (SSL re-using session ID)
+[2022.03.12-18.27.04:807][695]LogHttp: Warning: 0000025BC40B1D00: libcurl info message cache 7 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2022.03.12-18.27.04:808][695]LogHttp: Warning: 0000025BC40B1D00: libcurl info message cache 8 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2022.03.12-18.27.04:808][695]LogHttp: Warning: 0000025BC40B1D00: libcurl info message cache 9 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2022.03.12-18.27.04:808][695]LogHttp: Warning: 0000025BC40B1D00: libcurl info message cache 10 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2022.03.12-18.27.04:808][695]LogHttp: Warning: 0000025BC40B1D00: libcurl info message cache 11 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2022.03.12-18.27.04:808][695]LogHttp: Warning: 0000025BC40B1D00: libcurl info message cache 12 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2022.03.12-18.27.04:808][695]LogHttp: Warning: 0000025BC40B1D00: libcurl info message cache 13 (TLSv1.2 (OUT), TLS change cipher, Client hello (1):)
+[2022.03.12-18.27.04:808][695]LogHttp: Warning: 0000025BC40B1D00: libcurl info message cache 14 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2022.03.12-18.27.04:808][695]LogHttp: Warning: 0000025BC40B1D00: libcurl info message cache 15 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2022.03.12-18.27.04:808][695]LogHttp: Warning: 0000025BC40B1D00: libcurl info message cache 16 (SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384)
+[2022.03.12-18.27.04:808][695]LogHttp: Warning: 0000025BC40B1D00: libcurl info message cache 17 (ALPN, server accepted to use http/1.1)
+[2022.03.12-18.27.04:808][695]LogHttp: Warning: 0000025BC40B1D00: libcurl info message cache 18 (old SSL session ID is stale, removing)
+[2022.03.12-18.27.04:808][695]LogHttp: Warning: 0000025BC40B1D00: libcurl info message cache 19 (Server certificate:)
+[2022.03.12-18.27.04:808][695]LogHttp: Warning: 0000025BC40B1D00: libcurl info message cache 20 ( subject: C=CA; ST=Nova Scotia; L=Halifax Regional Municipality; O=SolutionInc Limited; CN=*.solutionip.com)
+[2022.03.12-18.27.04:808][695]LogHttp: Warning: 0000025BC40B1D00: libcurl info message cache 21 ( start date: Jul  6 00:00:00 2020 GMT)
+[2022.03.12-18.27.04:808][695]LogHttp: Warning: 0000025BC40B1D00: libcurl info message cache 22 ( expire date: Oct  9 00:00:00 2022 GMT)
+[2022.03.12-18.27.04:808][695]LogHttp: Warning: 0000025BC40B1D00: libcurl info message cache 23 ( subjectAltName does not match datarouter.ol.epicgames.com)
+[2022.03.12-18.27.04:808][695]LogHttp: Warning: 0000025BC40B1D00: libcurl info message cache 24 (SSL: no alternative certificate subject name matches target host name 'datarouter.ol.epicgames.com')
+[2022.03.12-18.27.04:808][695]LogHttp: Warning: 0000025BC40B1D00: libcurl info message cache 25 (Closing connection 31)
+[2022.03.12-18.27.04:808][695]LogHttp: Warning: 0000025BC40B1D00: libcurl info message cache 26 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2022.03.12-18.27.04:825][696]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6DED183D-4D33-102F-E218-51A5BF08AFE8%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=d9fa85ae41146a0a9ad12b97cf4de64a%7C95e33a0ae797462391beb0ac71ddb695%7C0809734e-f07b-4665-8bdd-1676e83b8884&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.03.12-18.27.05:874][750]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (1M_Cube8)
+[2022.03.12-18.27.11:666][969]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.03.12-18.27.11:671][969]PIE: New page: PIE会话：VRTemplateMap（2022年3月13日 上午10:27:11）
+[2022.03.12-18.27.11:679][969]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2022.03.12-18.27.11:683][969]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2022.03.12-18.27.11:684][969]LogPlayLevel: Creating play world package: /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2022.03.12-18.27.11:705][969]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020334s)
+[2022.03.12-18.27.11:709][969]LogAIModule: Creating AISystem for world VRTemplateMap
+[2022.03.12-18.27.11:710][969]LogPlayLevel: PIE: World Init took: (0.004691s)
+[2022.03.12-18.27.11:710][969]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap to /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap (0.026023s)
+[2022.03.12-18.27.11:723][969]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2022.03.12-18.27.11:729][969]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2022.03.12-18.27.11:729][969]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.12-18.27.11:729][969]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.12-18.27.11:729][969]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.12-18.27.11:729][969]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.12-18.27.11:729][969]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2022.03.12-18.27.11:729][969]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.03.12-18.27.11:729][969]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2022.03.12-18.27.11:729][969]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.12-18.27.11:731][969]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2022.03.12-18.27.11:731][969]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2022.03.12-18.27.11:731][969]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.03.12-18.27.11:731][969]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.12-18.27.11:741][969]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.12-18.27.11:741][969]LogAudioMixer: Display: 1: FrontRight
+[2022.03.12-18.27.11:774][969]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2022.03.12-18.27.11:775][969]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.12-18.27.11:775][969]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.12-18.27.11:776][969]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.12-18.27.11:777][969]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.03.12-18.27.11:777][969]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.12-18.27.11:777][969]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.12-18.27.11:780][969]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.12-18.27.11:780][969]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.03.12-18.27.11:780][969]LogInit: FAudioDevice initialized.
+[2022.03.12-18.27.11:780][969]LogAudio: Display: Audio Device (ID: 2) registered with world 'VRTemplateMap'.
+[2022.03.12-18.27.11:841][969]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.12-18.27.11:842][969]LogLoad: Game class is 'VRGameMode_C'
+[2022.03.12-18.27.11:855][969]LogWorld: Bringing World /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap up for play (max tick rate 0) at 2022.03.13-02.27.11
+[2022.03.12-18.27.11:858][969]LogWorld: Bringing up level for play took: 0.006796
+[2022.03.12-18.27.11:859][969]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2022.03.12-18.27.11:869][969]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2022.03.12-18.27.11:876][969]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MovieSceneCapture' in 0.0011 seconds. Added 20 classes and 0 folders.
+[2022.03.12-18.27.11:898][969]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 1
+[2022.03.12-18.27.11:907][969]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2022.03.12-18.27.11:922][969]PIE: 登陆的服务器
+[2022.03.12-18.27.11:926][969]PIE: PIE总开始时间：0.267秒。
+[2022.03.12-18.27.12:060][969]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2022.03.12-18.27.12:900][997]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 4043
+[2022.03.12-18.27.12:900][997]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.03.12-18.27.15:946][124]LogSlate: Window 'VR_Fishing预览[NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.03.12-18.27.15:969][124]LogWorld: BeginTearingDown for /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2022.03.12-18.27.16:006][124]LogWorld: UWorld::CleanupWorld for VRTemplateMap, bSessionEnded=true, bCleanupResources=true
+[2022.03.12-18.27.16:006][124]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.12-18.27.16:030][124]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.12-18.27.16:087][124]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.12-18.27.16:103][124]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.03.12-18.27.16:105][124]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2022.03.12-18.27.16:105][124]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.12-18.27.16:107][124]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.12-18.27.16:121][124]LogSlate: Slate User Unregistered.  User Index 8
+[2022.03.12-18.27.16:121][124]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2022.03.12-18.27.16:125][124]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2022.03.12-18.27.16:191][125]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2022.03.12-18.27.18:522][224]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 4033
+[2022.03.12-18.27.18:522][224]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.03.12-18.27.28:599][668]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 4023
+[2022.03.12-18.27.28:599][668]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.03.12-18.27.34:003][912]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 4013
+[2022.03.12-18.27.34:003][912]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.03.12-18.27.40:119][180]LogEditorViewport: Clicking on Actor (LMB): VRSpectator_C (BP_VRSpectator)
+[2022.03.12-18.27.42:772][288]LogSlate: Took 0.001797 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2022.03.12-18.27.45:335][409]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/VRSpectator/VRSpectator.VRSpectator
+[2022.03.12-18.27.45:770][409]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 4003
+[2022.03.12-18.27.45:770][409]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.03.12-18.27.46:935][409]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0016 seconds. Added 126 classes and 0 folders.
+[2022.03.12-18.27.48:985][409]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 3993
+[2022.03.12-18.27.48:985][409]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.03.12-18.27.49:024][409]LogMaterial: Display: Missing cached shadermap for GridMaterial in PCD3D_SM5, Default, SM5 (DDC key hash: 59ACA1E0025C040EF913240211FDDDE7A3A50BF3), compiling. 
+[2022.03.12-18.27.49:051][409]LogShaderCompilers: Display: Submitted 16 shader compile jobs with 'Low' priority
+[2022.03.12-18.27.49:114][409]LogMaterial: Display: Missing cached shadermap for PersonaFloorMat in PCD3D_SM5, Default, SM5 (DDC key hash: CA1919638C85727DC16944B8D52B016DD29089E9), compiling. 
+[2022.03.12-18.27.49:156][409]LogShaderCompilers: Display: Submitted 25 shader compile jobs with 'Low' priority
+[2022.03.12-18.27.49:445][409]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.03.12-18.27.49:445][409]LogShaderCompilers: Display: Total job queries 6954, among them cache hits 4 (0.06%)
+[2022.03.12-18.27.49:445][409]LogShaderCompilers: Display: Tracking 2886 distinct input hashes that result in 985 distinct outputs (34.13%)
+[2022.03.12-18.27.49:445][409]LogShaderCompilers: Display: RAM used: 10.82 MB (0.01 GB) of 409.60 MB (0.40 GB) budget. Usage: 2.64%
+[2022.03.12-18.27.49:445][409]LogShaderCompilers: Display: ================================================
+[2022.03.12-18.27.49:464][409]LogSlate: Took 0.010285 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.03.12-18.28.04:854][802]LogHttp: Warning: 0000025B9642F200: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6DED183D-4D33-102F-E218-51A5BF08AFE8%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=d9fa85ae41146a0a9ad12b97cf4de64a%7C95e33a0ae797462391beb0ac71ddb695%7C0809734e-f07b-4665-8bdd-1676e83b8884&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.03.12-18.28.04:854][802]LogHttp: Warning: 0000025B9642F200: request failed, libcurl error: 51 (SSL peer certificate or SSH remote key was not OK)
+[2022.03.12-18.28.04:854][802]LogHttp: Warning: 0000025B9642F200: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2022.03.12-18.28.04:854][802]LogHttp: Warning: 0000025B9642F200: libcurl info message cache 1 (  Trying 52.202.93.72...)
+[2022.03.12-18.28.04:854][802]LogHttp: Warning: 0000025B9642F200: libcurl info message cache 2 (TCP_NODELAY set)
+[2022.03.12-18.28.04:854][802]LogHttp: Warning: 0000025B9642F200: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (52.202.93.72) port 443 (#32))
+[2022.03.12-18.28.04:854][802]LogHttp: Warning: 0000025B9642F200: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2022.03.12-18.28.04:854][802]LogHttp: Warning: 0000025B9642F200: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2022.03.12-18.28.04:854][802]LogHttp: Warning: 0000025B9642F200: libcurl info message cache 6 (SSL re-using session ID)
+[2022.03.12-18.28.04:854][802]LogHttp: Warning: 0000025B9642F200: libcurl info message cache 7 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2022.03.12-18.28.04:854][802]LogHttp: Warning: 0000025B9642F200: libcurl info message cache 8 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2022.03.12-18.28.04:854][802]LogHttp: Warning: 0000025B9642F200: libcurl info message cache 9 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2022.03.12-18.28.04:854][802]LogHttp: Warning: 0000025B9642F200: libcurl info message cache 10 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2022.03.12-18.28.04:854][802]LogHttp: Warning: 0000025B9642F200: libcurl info message cache 11 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2022.03.12-18.28.04:854][802]LogHttp: Warning: 0000025B9642F200: libcurl info message cache 12 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2022.03.12-18.28.04:854][802]LogHttp: Warning: 0000025B9642F200: libcurl info message cache 13 (TLSv1.2 (OUT), TLS change cipher, Client hello (1):)
+[2022.03.12-18.28.04:854][802]LogHttp: Warning: 0000025B9642F200: libcurl info message cache 14 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2022.03.12-18.28.04:854][802]LogHttp: Warning: 0000025B9642F200: libcurl info message cache 15 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2022.03.12-18.28.04:854][802]LogHttp: Warning: 0000025B9642F200: libcurl info message cache 16 (SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384)
+[2022.03.12-18.28.04:854][802]LogHttp: Warning: 0000025B9642F200: libcurl info message cache 17 (ALPN, server accepted to use http/1.1)
+[2022.03.12-18.28.04:854][802]LogHttp: Warning: 0000025B9642F200: libcurl info message cache 18 (old SSL session ID is stale, removing)
+[2022.03.12-18.28.04:854][802]LogHttp: Warning: 0000025B9642F200: libcurl info message cache 19 (Server certificate:)
+[2022.03.12-18.28.04:854][802]LogHttp: Warning: 0000025B9642F200: libcurl info message cache 20 ( subject: C=CA; ST=Nova Scotia; L=Halifax Regional Municipality; O=SolutionInc Limited; CN=*.solutionip.com)
+[2022.03.12-18.28.04:854][802]LogHttp: Warning: 0000025B9642F200: libcurl info message cache 21 ( start date: Jul  6 00:00:00 2020 GMT)
+[2022.03.12-18.28.04:854][802]LogHttp: Warning: 0000025B9642F200: libcurl info message cache 22 ( expire date: Oct  9 00:00:00 2022 GMT)
+[2022.03.12-18.28.04:855][802]LogHttp: Warning: 0000025B9642F200: libcurl info message cache 23 ( subjectAltName does not match datarouter.ol.epicgames.com)
+[2022.03.12-18.28.04:855][802]LogHttp: Warning: 0000025B9642F200: libcurl info message cache 24 (SSL: no alternative certificate subject name matches target host name 'datarouter.ol.epicgames.com')
+[2022.03.12-18.28.04:855][802]LogHttp: Warning: 0000025B9642F200: libcurl info message cache 25 (Closing connection 32)
+[2022.03.12-18.28.04:855][802]LogHttp: Warning: 0000025B9642F200: libcurl info message cache 26 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2022.03.12-18.28.04:855][802]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6DED183D-4D33-102F-E218-51A5BF08AFE8%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=d9fa85ae41146a0a9ad12b97cf4de64a%7C95e33a0ae797462391beb0ac71ddb695%7C0809734e-f07b-4665-8bdd-1676e83b8884&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.03.12-18.28.06:344][842]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 4024
+[2022.03.12-18.28.06:344][842]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.03.12-18.28.08:370][894]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 4014
+[2022.03.12-18.28.08:370][894]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.03.12-18.28.17:773][140]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 4004
+[2022.03.12-18.28.17:773][140]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.03.12-18.28.21:883][252]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 3994
+[2022.03.12-18.28.21:883][252]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
+[2022.03.12-18.28.47:863][927]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 3984
+[2022.03.12-18.28.47:864][927]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Low' priority
